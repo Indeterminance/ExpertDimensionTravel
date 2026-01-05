@@ -13,7 +13,7 @@ import java.util.Random;
 @Mixin(PortalForcer.class)
 public abstract class PortalForcerMixin {
     @Unique
-    private Random RNG = new Random();
+    private final Random expertdimtravel$RNG = new Random();
 
     @ModifyArg(
             method = "createPortal",
@@ -25,7 +25,7 @@ public abstract class PortalForcerMixin {
     public BlockState createPortal(BlockState origBlockState) {
         if (origBlockState.is(Blocks.NETHER_PORTAL)) return Blocks.AIR.defaultBlockState();
         else if (origBlockState.is(Blocks.OBSIDIAN)) {
-            int randInt = RNG.nextInt(5);
+            int randInt = expertdimtravel$RNG.nextInt(5);
             if (randInt == 0) return Blocks.AIR.defaultBlockState();
             if (randInt < 3) return Blocks.CRYING_OBSIDIAN.defaultBlockState();
             return origBlockState;

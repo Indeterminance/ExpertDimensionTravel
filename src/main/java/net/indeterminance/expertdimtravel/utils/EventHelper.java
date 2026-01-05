@@ -1,6 +1,5 @@
 package net.indeterminance.expertdimtravel.utils;
 
-import net.minecraft.core.BlockPos;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
