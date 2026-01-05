@@ -25,6 +25,7 @@ public class ModEvents {
         @SubscribeEvent
         public static void onPortalSpawn(BlockEvent.PortalSpawnEvent event) {
             ServerLevel serverLevel = EventHelper.getServerLevelFromEvent(event);
+            if (serverLevel == null) return;
             BlockPos blockPos = event.getPos();
             // Get HolderSet for ruined portals
             StructureManager structureManager = serverLevel.structureManager();
