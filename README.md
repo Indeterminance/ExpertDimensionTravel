@@ -1,4 +1,4 @@
-![alt text](https://github.com/Indeterminance/ExpertDimensionTravel/gallery/ruined_portal.png "Ruined Portal activates, artificial portal doesn't!")
+![Demonstration of Nether Portals only being creatable in Ruined Portal structures](https://raw.githubusercontent.com/Indeterminance/ExpertDimensionTravel/refs/heads/1.20.1/gallery/ruined_portal.png "Ruined Portal activates, artificial portal doesn't!")
 # Expert Dimension Travel
 
 Have you ever thought that the Nether is a little too easy to enter? Or maybe that the outer End islands being optional is a little silly? Expert Dimension Travel aims to resolve these by implementing the following changes:
